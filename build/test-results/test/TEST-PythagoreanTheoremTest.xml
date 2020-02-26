@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PythagoreanTheoremTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-26T21:45:23" hostname="AcerAspireE15" time="0.033">
+  <properties/>
+  <testcase name="testZeros()" classname="PythagoreanTheoremTest" time="0.016"/>
+  <testcase name="testNegatives()" classname="PythagoreanTheoremTest" time="0.001"/>
+  <testcase name="testDecimal()" classname="PythagoreanTheoremTest" time="0.005"/>
+  <testcase name="TestMoreIntegers()" classname="PythagoreanTheoremTest" time="0.001"/>
+  <testcase name="testAnotherDecimal()" classname="PythagoreanTheoremTest" time="0.003"/>
+  <testcase name="TestIntegers()" classname="PythagoreanTheoremTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
