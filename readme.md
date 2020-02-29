@@ -8,7 +8,7 @@ The equation is
 
 where a and b are the lengths of the sides, and c is the length of the hypotenuse.
 
-For this exercise, implement the Pythagorean Theorem such that
->c = sqrt(a<sup>2</sup> + b<sup>2</sup>)
+For this exercise, implement methods for finding the hypotenuse of a right triangle, given two sides, and a side of a
+triangle, given the other side and the hypotenuse. In other words, find c given a and b, and find a, given b and c.
 
 Hint: Java has a Math class which includes sqrt() and pow() methods.

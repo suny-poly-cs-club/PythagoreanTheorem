@@ -15,33 +15,58 @@ public class PythagoreanTheoremTest {
     }
 
     @Test
-    public void testZeros() {
-        assertAlmostEquals(0, pythagoreanTheorem.pythagoreanTheorem(0, 0));
+    public void testHypotenuseZeros() {
+        assertAlmostEquals(0, pythagoreanTheorem.findHypotenuse(0, 0));
     }
 
     @Test
-    public void TestIntegers() {
-        assertAlmostEquals(5, pythagoreanTheorem.pythagoreanTheorem(3, 4));
+    public void testHypotenuseIntegers() {
+        assertAlmostEquals(5, pythagoreanTheorem.findHypotenuse(3, 4));
     }
 
     @Test
-    public void TestMoreIntegers() {
-        assertAlmostEquals(10, pythagoreanTheorem.pythagoreanTheorem(6, 8));
+    public void testHypotenuseMoreIntegers() {
+        assertAlmostEquals(10, pythagoreanTheorem.findHypotenuse(6, 8));
     }
 
     @Test
-    public void testDecimal() {
-        assertAlmostEquals(14.1421356237, pythagoreanTheorem.pythagoreanTheorem(10.0, 10.0));
+    public void testHypotenuseDecimal() {
+        assertAlmostEquals(14.1421356237, pythagoreanTheorem.findHypotenuse(10.0, 10.0));
     }
 
     @Test
-    public void testAnotherDecimal() {
-        assertAlmostEquals(869.504223106, pythagoreanTheorem.pythagoreanTheorem(365.14, 789.12));
+    public void testHypotenuseAnotherDecimal() {
+        assertAlmostEquals(869.504223106, pythagoreanTheorem.findHypotenuse(365.14, 789.12));
     }
 
     @Test
-    public void testNegatives() {
-        assertAlmostEquals(5, pythagoreanTheorem.pythagoreanTheorem(-3, -4));
+    public void testHypotenuseNegatives() {
+        assertAlmostEquals(5, pythagoreanTheorem.findHypotenuse(-3, -4));
+    }
+
+    @Test
+    public void testSideZeros() {
+        assertAlmostEquals(0, pythagoreanTheorem.findSide(0, 0));
+    }
+
+    @Test
+    public void testSideIntegers() {
+        assertAlmostEquals(3, pythagoreanTheorem.findSide(4, 5));
+    }
+
+    @Test
+    public void testSideMoreIntegers() {
+        assertAlmostEquals(6, pythagoreanTheorem.findSide(8, 10));
+    }
+
+    @Test
+    public void testSideDecimal() {
+        assertAlmostEquals(10.0, pythagoreanTheorem.findSide(10.0, 14.1421356237));
+    }
+
+    @Test
+    public void testSideAnotherDecimal() {
+        assertAlmostEquals(365.14, pythagoreanTheorem.findSide(789.12, 869.504223106));
     }
 
     public static void assertAlmostEquals(double expected, double actual) {

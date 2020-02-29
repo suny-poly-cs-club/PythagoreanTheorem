@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28df7248-5a29-4f43-b940-68b3b7d3ca3e" name="Default Changelist" comment="" />
+    <list default="true" id="28df7248-5a29-4f43-b940-68b3b7d3ca3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PythagoreanTheorem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PythagoreanTheorem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PythagoreanTheoremTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PythagoreanTheoremTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +34,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YJM5gNtYjpTdYE4NtvbkGmRhDE" />
   <component name="ProjectViewState">
@@ -103,6 +112,8 @@
       <option name="presentableId" value="Default" />
       <updated>1582656061328</updated>
       <workItem from="1582656064947" duration="3964000" />
+      <workItem from="1582760449703" duration="26000" />
+      <workItem from="1583005425128" duration="1434000" />
     </task>
     <servers />
   </component>
@@ -110,10 +121,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1583005851319">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1583005851319" />
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582753289593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582753289593" />
+    <state x="322" y="7" key="CommitChangelistDialog2" timestamp="1583007018910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="322" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583007018910" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1582754477515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -122,29 +141,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="616" y="306" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1582754465935" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582754494736">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583006921939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582754494736" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582754494736">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583006921939" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583006921939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582754494736" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582754494736">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583006921939" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583006921939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582754494736" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582754494736">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583006921939" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583006921939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582754494736" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583006921939" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1582752820645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582752820645" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1582760463587">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582760463587" />
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582656118200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1582656118200" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583005915773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583005915773" />
   </component>
 </project>
