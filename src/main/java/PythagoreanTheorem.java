@@ -11,9 +11,7 @@ public class PythagoreanTheorem {
     }
 
     public boolean verify(double a, double b, double c) {
-        System.out.println(a * a + b * b);
-        System.out.println(c * c);
-        return almostEquals(a * a + b * b, c * c);
+        return false;
     }
 
     private boolean almostEquals(double d0, double d1) {
